@@ -1,0 +1,142 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	background-color: #fff8f2;
+}
+h1 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: black;
+}
+nav {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff0e6;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #ffd1b3;
+	display: flex;
+}
+nav a {
+	text-decoration: none;
+	color: #e67e22;
+	font-size: 18px;
+	padding: 15px 15px;
+}
+nav a:hover {
+	color: #fff;
+	background-color: #e67e22;
+}
+nav a.a {
+	color: #fff;
+	background-color: #e67e22;
+	font-weight: bold;
+}
+.cont {
+	width: 500px;
+	margin: 20px auto;
+	padding: 15px;
+	background-color: #fff5eb;
+	border: 1px solid #967158;
+	font-size: 16px;
+	text-align: justify;
+}
+.conte p {
+	margin: 0 0 10px 0;
+}
+footer {
+	width: 500px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-n {
+	width: 40%;
+}
+.footer-n h3 {
+	color: black;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.footer-n a {
+	display: block;
+	color: #e67e22;
+	font-size: 15px;
+	text-decoration: none;
+	margin-bottom: 8px;
+}
+.footer-n a:hover {
+	color: #954906;
+	text-decoration: underline;
+}
+
+            #screenShotContainer {
+                cursor: crosshair;
+                left: 0;
+                position: absolute;
+                top: 0
+            }
+
+            #toolPanel {
+                background: #fff;
+                border-radius: 6px;
+                box-sizing: content-box;
+                height: 24px;
+                left: 0;
+                min-width: 392px;
+                padding: 6px 14px;
+                position: absolute;
+                top: 0;
+                z-index: 9999
+            }
+
+
+            #optionPanel .brush-select-panel {
+                float: left;
+                height: 20px
+            }
+
+            #optionPanel .brush-select-panel .item-panel {
+                float: left;
+                height: 20px;
+                margin-right: 18px;
+                width: 20px
+            }
+
+            #optionPanel .right-panel {
+                align-items: center;
+                display: flex;
+                float: left;
+                margin-left: 39px
+            }
+
+            #optionPanel .right-panel .color-panel {
+                background: #fff;
+                border: 1px solid #e5e6e5;
+                border-radius: 5px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                position: absolute;
+                right: 28px;
+                top: -225px;
+                width: 72px
+            }
+
+            #optionPanel .right-panel .color-panel .color-item {
+                height: 20px;
+                margin-bottom: 5px;
+                width: 62px
+            }
+
+            #optionPanel .right-panel .color-panel .color-item:first-child {
+                background: #f53440;
+                margin-top: 5px
+            }
+            #x1 { position: absolute; z-index: 2147483647; }
+#x2 { display: flex; position: relative; }
+
+
+
